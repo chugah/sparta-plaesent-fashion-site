@@ -10,6 +10,8 @@
   src: url('../assets/fonts/Springville-Regular3.otf');
 }
 
+/* Global Style */
+
 * {
   margin: 0;
   padding: 0;
@@ -159,7 +161,7 @@
 
 .post__title,
 .post__headline,
-.post-link {
+.post__link {
   font-family: 'Springville-Regular3', serif;
 }
 
@@ -174,6 +176,10 @@
 
 /* FOOTER */
 
+a {
+  color: #000;
+}
+
 .footer {
   align-items: center;
   display: flex;
@@ -185,11 +191,11 @@
 
 .footer__link {
   text-decoration: underline;
-  cursor: pointer;
 }
 
 .footer__link:hover {
-  color: #767676;
+  color: #ff0000;
+  cursor: pointer;
 }
 
 /* TABLET */

@@ -9,7 +9,7 @@
   npm module:  https://www.npmjs.com/package/react-modal.
 
   The styling for this component is found at ../styles/app.css from
-  lines 19 to 53.
+  lines 21 to 55.
 */
 
 import React, { Component } from 'react';

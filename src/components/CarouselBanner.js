@@ -13,7 +13,7 @@
   available to the Carousel node module.
 
   The styling for this component is found at ../styles/app.css from
-  lines 55 to 105.
+  lines 57 to 107.
 */
 
 import React, { Component } from 'react';

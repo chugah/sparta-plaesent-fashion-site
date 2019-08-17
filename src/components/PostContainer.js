@@ -14,7 +14,7 @@
   https://www.npmjs.com/package/uniqid.
 
   The styling for this component is found at ../styles/app.css from
-  lines 107 to 173.
+  lines 109 to 175.
 */
 
 import React, { Component } from 'react';

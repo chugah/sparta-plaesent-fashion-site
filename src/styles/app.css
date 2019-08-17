@@ -59,9 +59,9 @@
   max-width: 2000px;
 }
 
-/* .carousel.carousel-slider {
-  width: 100% !important;
-} */
+.control-dots {
+  position: relative !important;
+}
 
 .carousel-text-container {
   color: #fff;
@@ -100,6 +100,10 @@
   padding-top: 2%;
 }
 
+.dot {
+  background-color: #d3d3d3 !important;
+}
+
 /* POSTS */
 
 .post > img {
@@ -111,7 +115,7 @@
   column-count: 3;
   column-gap: 3.3em;
   height: auto;
-  padding: 5% 8%;
+  padding: 4% 8%;
   width: 100%;
 }
 

@@ -3,12 +3,12 @@
   the carousel images.
 
   It is a child component of the CarouselBanner.
-  
+
 */
 
 import React from 'react';
 
-const SliderData = props => (
+const SliderData = (props) => (
     <div>
       <h1 className='carousel-title'>{(props.carouselData.headingOne)}</h1>
       <h1 className='carousel-title'>{(props.carouselData.headingTwo)}</h1>

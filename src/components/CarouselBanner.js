@@ -14,7 +14,6 @@
 
   The styling for this component is found at ../styles/app.css from
   lines 55 to 105.
-
 */
 
 import React, { Component } from 'react';

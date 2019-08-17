@@ -1,4 +1,7 @@
+/*
+  This json file provides the data for each post required by PostContainer.
 
+*/
   const PostData = [
       { id: 1,
         dateValue: 0,

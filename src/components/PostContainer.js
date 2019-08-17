@@ -1,20 +1,28 @@
+/*
+  This component's purpose is to render each post and its contents.
+  It is also the parent component of Post.
+
+  Several props are handed down to Post and the information for these
+  props is obtained from PostData.
+
+  There is a map method that iterates over the PostData to fetch each
+  post's contents. It is these contents that are handed down as props
+  to Post.
+
+  Note the npm module uniqid is used to satisfy React's requirement for
+  a unique key. Documentation for this module can be found at
+  https://www.npmjs.com/package/uniqid.
+
+  The styling for this component is found at ../styles/app.css from
+  lines 107 to 173.
+*/
+
 import React, { Component } from 'react';
 import uniqid from 'uniqid';
 import PostData from './PostData';
 import Post from './Post';
 
 class PostContainer extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      windowWidth: window.innerWidth
-    };
-  }
-
-  componentDidMount() {
-    window.addEventListener('resize', this.widthChange)
-  }
-
   render() {
     const postContent = PostData;
     return (

@@ -1,3 +1,11 @@
+/*
+  This functional component's purpose is to provide the data that will render
+  for each post.
+
+  It is a child component of the PostContainer.
+
+*/
+
 import React from 'react';
 
 const Post = (props) => (

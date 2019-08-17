@@ -1,5 +1,5 @@
 /*
-  This component's main function to to fetch all its children
+  This component's main function is to fetch all its children
   components and renders them to the UI. It also handles the
   css stylesheet.
 */

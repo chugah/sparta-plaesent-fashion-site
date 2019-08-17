@@ -44,3 +44,6 @@ C. Additional Thoughts
       - Source folder contains the assets, components, data, and styles
       - Source folder also has the index and App js files that act as entry
         points to the application
+
+  - It would have been helpful to have discussions with the team on how to best
+    handle different screen sizes

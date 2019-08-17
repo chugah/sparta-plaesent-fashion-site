@@ -35,7 +35,7 @@ C. Additional Thoughts
       - Single column design used for mobile devices in portrait orientation
       - The carousel is prominent in mobile landscape orientation and user
         must scroll to see the various posts
-      - React modules were used to handle the Carousel (not built from scratch)
+      - React modules were used to handle the Carousel and the hamburger menu
       - The navigation bar position set to sticky
 
   - Application is structured into 2 principal folders:  public and source.

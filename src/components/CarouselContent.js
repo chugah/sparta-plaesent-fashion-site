@@ -1,3 +1,11 @@
+/*
+  This component's purpose is to provide the information that will overlay
+  the carousel images.
+
+  It is a child component of the CarouselBanner.
+  
+*/
+
 import React from 'react';
 
 const SliderData = props => (

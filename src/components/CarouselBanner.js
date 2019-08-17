@@ -1,3 +1,22 @@
+/*
+  This component's purpose is to render the sliding images beneath
+  the navigation bar. It is also the parent component of CarouselContent.
+
+  The carousel component contains a responsive react module and documentation
+  can be found at https://www.npmjs.com/package/react-responsive-carousel.
+
+  There is a map method that iterates to get the overaly text for the image. A
+  dynamic approach was taken to allow the option of cycling different messages
+  if needed in the future.
+
+  The images are imported from the assets/images/carousel folder to make them
+  available to the Carousel node module.
+
+  The styling for this component is found at ../styles/app.css from
+  lines 55 to 105.
+
+*/
+
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';

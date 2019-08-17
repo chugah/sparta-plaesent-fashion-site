@@ -1,3 +1,17 @@
+/*
+  This component's purpose is to render the navigation bar which
+  include the logo, phone number, login, and hamburger menu.
+
+  Clicking on the hamburger menu animates into a X. Note there
+  is no modal revealed from this action.
+
+  If a modal were to be added, it is recommended to use the following
+  npm module:  https://www.npmjs.com/package/react-modal.
+
+  The styling for this component is found at ../styles/app.css from
+  lines 19 to 53.
+*/
+
 import React, { Component } from 'react';
 import HamburgerMenu from 'react-hamburger-menu';
 import logo from '../assets/images/logo.png';
@@ -40,6 +54,5 @@ class NavBar extends Component {
     )
   }
 }
-
 
 export default NavBar;

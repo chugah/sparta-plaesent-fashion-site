@@ -32,17 +32,15 @@ Please check which node / npm version available on computer. It looks like node 
 C. Additional Thoughts
 
   - Some design choices made during development:
-      i.  Single column design used for mobile devices in portrait orientation
-     ii.  The carousel is prominent in mobile landscape orientation and user
-          must scroll to see the various posts
-    iii.  React modules were used to handle the Carousel (not built from scratch)
-     iv.  The navigation bar position set to sticky
+      - Single column design used for mobile devices in portrait orientation
+      - The carousel is prominent in mobile landscape orientation and user
+        must scroll to see the various posts
+      - React modules were used to handle the Carousel (not built from scratch)
+      - The navigation bar position set to sticky
 
   - Application is structured into 2 principal folders:  public and source.
-      i.  Public folder has the index html file and provides element to render
-          application
-      ii. Source folder contains the assets, components, data, and styles
-     iii. Source folder also has the index and App js files that act as entry
-          points to the application
-
-  -
+      - Public folder has the index html file and provides element to render
+        application
+      - Source folder contains the assets, components, data, and styles
+      - Source folder also has the index and App js files that act as entry
+        points to the application

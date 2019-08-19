@@ -1,11 +1,11 @@
 @font-face {
     font-family: ACaslonPro-Regular;
-    src: url(/static/media/ACaslonPro-Regular.07c51e08.otf)
+    src: url('../assets/fonts/ACaslonPro-Regular.otf')
 }
 
 @font-face {
     font-family: Springville-Regular3;
-    src: url(/static/media/Springville-Regular3.47a715e6.otf)
+    src: url('../assets/fonts/Springville-Regular3.otf')
 }
 
 * {

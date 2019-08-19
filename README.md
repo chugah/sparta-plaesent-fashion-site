@@ -1,5 +1,3 @@
-https://ideawork-sparta-plaesent-sdb.herokuapp.com/
-
 Ideawork - Sparta Plaesent Challenge
 
 Objectives:
@@ -11,6 +9,7 @@ Deliverables:
 
   - Source code
   - Instructions to run project locally
+  - Live link
 
 A. Source code
 
@@ -31,7 +30,11 @@ B. Instructions
 
 Please check which node / npm version available on computer. It looks like node 8+ should be ok.  See https://nodejs.org/en/about/releases/.
 
-C. Additional Thoughts
+C. Live Link
+
+  - https://ideawork-sparta-plaesent-sdb.herokuapp.com/
+
+D. Additional Thoughts
 
   - Some design choices made during development:
       - Single column design used for mobile devices in portrait orientation

@@ -168,7 +168,8 @@
 .post__wrapper {
     -webkit-column-break-inside: avoid;
     -moz-column-break-inside: avoid;
-    break-inside: avoid-column
+    break-inside: avoid-column;
+    display: flex;
 }
 
 a {
